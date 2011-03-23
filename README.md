@@ -6,6 +6,8 @@ Kevin C. Olbrich, Ph.D.
 
 Project page: [http://github.com/olbrich/ruby-units](http://github.com/olbrich/ruby-units)
 
+Forked by [brewpoo] to add additional unit support
+
 ## Introduction
 Many technical applications make use of specialized calculations at some point.  Frequently, these calculations require unit conversions to ensure accurate results.  Needless to say, this is a pain to properly keep track of, and is prone to numerous errors.
   

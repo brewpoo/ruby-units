@@ -75,6 +75,8 @@ UNIT_DEFINITIONS = {
 
   #volume
   '<liter>' => [%w{l L liter liters litre litres}, 0.001, :volume, %w{<meter> <meter> <meter>}],
+  '<barrel>' => [%w{bbl bbls barrel barrels}, 0.00852167911, :volume, %w{<meter> <meter> <meter>}],
+  '<keg>' => [%w{keg kegs}, 0.0170433582, :volume, %w{<meter> <meter> <meter>}],
   '<gallon>'=>  [%w{gal gallon gallons}, 0.0037854118, :volume, %w{<meter> <meter> <meter>}],
   '<quart>'=>  [%w{qt quart quarts}, 0.00094635295, :volume, %w{<meter> <meter> <meter>}],
   '<pint>'=>  [%w{pt pint pints}, 0.000473176475, :volume, %w{<meter> <meter> <meter>}],
