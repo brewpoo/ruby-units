@@ -739,7 +739,12 @@ class Unit < Numeric
   end  
   alias :>> :to
   alias :convert_to :to
-    
+  
+  # returns the scalar value convert to other units
+  def scalar_in(other)
+    to(other).scalar
+  end
+
   # converts the unit back to a float if it is unitless.  Otherwise raises an exception
   def to_f
     return @scalar.to_f if self.unitless?

@@ -65,7 +65,7 @@ UNIT_DEFINITIONS = {
   '<metric-ton>'=>[%w{tonne}, 1000, :mass, %w{<kilogram>}],
   '<carat>' => [%w{ct carat carats}, 0.0002, :mass, %w{<kilogram>}],
   '<pound>' => [%w{lbs lb pound pounds #}, 0.45359237, :mass, %w{<kilogram>}],
-  '<ounce>' => [%w{oz ounce ounces}, 0.0283495231, :mass, %w{<kilogram>}],
+  '<ounce>' => [%w{ozs oz ounce ounces}, 0.0283495231, :mass, %w{<kilogram>}],
   '<gram>'    =>  [%w{g gram grams gramme grammes},1e-3,:mass, %w{<kilogram>}],
 
   #area
@@ -96,8 +96,8 @@ UNIT_DEFINITIONS = {
 
   #temperature_difference
   '<kelvin>' => [%w{degK kelvin}, 1.0, :temperature, %w{<kelvin>}],
-  '<celsius>' => [%w{degC celsius celsius centigrade}, 1.0, :temperature, %w{<kelvin>}],
-  '<fahrenheit>' => [%w{degF fahrenheit}, 1/1.8, :temperature, %w{<kelvin>}],
+  '<celsius>' => [%w{dC degC celsius celsius centigrade}, 1.0, :temperature, %w{<kelvin>}],
+  '<fahrenheit>' => [%w{dF degF fahrenheit}, 1/1.8, :temperature, %w{<kelvin>}],
   '<rankine>' => [%w{degR rankine}, 1/1.8, :temperature, %w{<kelvin>}],
   '<temp-K>'  => [%w{tempK}, 1.0, :temperature, %w{<temp-K>}],
   '<temp-C>'  => [%w{tempC}, 1.0, :temperature, %w{<temp-K>}],
